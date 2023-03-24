@@ -9,12 +9,12 @@ The COCO dataset consists of 80 labels, including, but not limited to:
 
 - People
 - Bicycles
-- Cars and trucks
+- Cars
+- Trucks
 - Airplanes
 - Stop signs and fire hydrants
 - Animals, including cats, dogs, birds, horses, cows, and sheep, to name a few
 - Kitchen and dining objects, such as wine glasses, cups, forks, knives, spoons, etc.
-…and much more!
 
 You can find a full list of what YOLO trained on the COCO dataset can detect <a href="https://github.com/pjreddie/darknet/blob/master/data/coco.names" target="_blank"><b>using this link.</b></a>
 
@@ -34,13 +34,13 @@ You can find a full list of what YOLO trained on the COCO dataset can detect <a 
 ## Screenshots
 ![Image](/Object%20dection%20using%20image/1.png)
 
-Here you can see that YOLO has not only detected each person in the input image, but also the suitcases as well!
+Here you can see that YOLO has not only detected each person in the input image but also the suitcases as well!
 
 Furthermore, if you take a look at the right corner of the image you’ll see that YOLO has also detected the handbag on the lady’s shoulder.
 
 <img src="https://github.com/yash42828/YOLO-object-detection-with-OpenCV/blob/master/Object%20dection%20using%20image/2.png">
 
-YOLO is able to correctly detect each of the players on the pitch, including the soccer ball itself. Notice the person in the background who is detected despite the area being highly blurred and partially obscured.
+YOLO can correctly detect each of the players on the pitch, including the soccer ball itself. Notice the person in the background who is detected despite the area being highly blurred and partially obscured.
 
 ## YOLO object detection in video streams
 
@@ -57,7 +57,7 @@ YOLO is able to correctly detect each of the players on the pitch, including the
 
 <img src="https://github.com/yash42828/YOLO-object-detection-with-OpenCV/blob/master/Object%20detection%20using%20video/car.gif">
 
-In the video/GIF, you can see not only the vehicles being detected, but people, as well as the traffic lights, are detected too!
+In the video/GIF, you can see not only the vehicles being detected but people, as well as the traffic lights, are detected too!
 
 The YOLO object detector is performing quite well here. 
 
@@ -93,6 +93,4 @@ SSDs often give a nice tradeoff in terms of speed and accuracy as well.
 ## Screenshots
 <img src="https://github.com/yash42828/YOLO-object-detection-with-OpenCV/blob/master/real-time-object-detection/real_time.gif">
 
-Notice how our deep learning object detector can detect not only a person, but also the sofa and the chair next to person — all in real-time!
-
-Just follow☝️ me and Star⭐ my repository
+Notice how our deep-learning object detector can detect not only a person but also the sofa and the chair next to the person — all in real time!
