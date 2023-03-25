@@ -1,5 +1,0 @@
-Use the following command for running the unit test cases
-
-``` 
-python run pytest
-```
