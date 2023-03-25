@@ -1,0 +1,5 @@
+Use the following command for running the unit est cases
+
+``` 
+python run pytest
+```
