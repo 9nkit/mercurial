@@ -6,3 +6,6 @@ def test_2():
 
 def test_3():
     assert "Hello".upper() == "heLlo".upper()
+
+def test_4():
+    assert "Hello" != "heLlo"
